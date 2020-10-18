@@ -1,0 +1,29 @@
+{
+  "name": "controles",
+  "version": "1.0.0",
+  "description": "Controles para VR threeJS, in development",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "webpack-dev": "webpack --config webpack.config.js --display-error-details --mode=development --progress --watch",
+    "start:dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.17.20",
+    "three": "^0.115.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "camera-controls": "^1.21.0",
+    "dat.gui": "^0.7.7",
+    "run": "^1.4.0",
+    "stats.js": "^0.17.0"
+  },
+  "main": "webpack.config.js"
+}
